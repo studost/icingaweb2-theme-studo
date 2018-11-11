@@ -5,10 +5,22 @@
  *  - Links and buttons
  *  - Highlighting
  */
-@icinga-blue: #2196F3;
+// Black colors from base.less
+@black: #535353;
+
+// Gray colors
+@gray: #7F7F7F;
+@gray-light: #C9C9C9;
+@gray-lighter: #EEEEEE;
+@gray-lightest: #F7F7F7;
+
+// Icinga colors
+@icinga-blue: #778899;
+//@icinga-blue: #0095BF;
+@icinga-secondary: #EF4F98;
 
 #login {
-  background-image: url('../img/company/samson-duborg-rankin-91091.jpg');
+  background-image: url('../img/studost/samson-duborg-rankin-91091.jpg');
 
   input[type=submit] {
     background-color: @icinga-blue;
@@ -20,11 +32,11 @@
  */
 #icinga-logo {
   // TODO
-  background-image: url('../img/company/logo-white.svg');
+  background-image: url('../img/studost/logo-white.svg');
 
   &.invert {
     // The logo shown on white background (DEFAULT)
-    background-image: url('../img/company/logo-blue.svg');
+    background-image: url('../img/studost/logo-blue.svg');
   }
 }
 
@@ -42,9 +54,10 @@
  * Background below is @icinga-blue
  */
 #header-logo {
-  background-image: url('../img/company/logo-white.svg');
+  background-image: url('../img/studost/logo-white.svg');
 }
 
 #layout:not(.minimal-layout).sidebar-collapsed #header-logo {
-  background-image: url('../img/company/logo-white-compact.svg');
+  background-image: url('../img/studost/logo-white-compact.svg');
 }
+

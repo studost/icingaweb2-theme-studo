@@ -1,4 +1,10 @@
-## Editors
-.*.sw[op]
-*~
-/.idea/
+/.idea
+/build
+atlassian-*.xml
+tmp
+*.bak
+*.swp
+*.tar.gz
+lsyncd.*
+lsyncd-status.log
+
